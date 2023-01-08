@@ -1,9 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+
+const pageTitle = "Welcome to Astro"
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title={pageTitle}>
 	<main>
 		<a href="/">Home</a>
 		<a href="/about/">About</a>
